@@ -1,0 +1,237 @@
+.success {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #1f2021;
+  background-image: url("../../assets/img/footer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+
+}
+
+.success .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(52 7 72 / 40%);
+}
+
+.success .conatct {
+  position: relative;
+  padding: 50px;
+}
+
+.conatct .contact-data {
+  display: flex;
+  flex-direction: column;
+
+  gap: 20px;
+}
+@media(max-width:992px) {
+  .success .conatct {
+    padding: 20px 0;
+    gap: 40px;
+  }
+}
+
+.conatct .contact-data img {
+  width: 180px;
+  max-width: 100%;
+  margin-bottom: 30px;
+
+}
+
+.conatct .contact-data div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.conatct .contact-data div span:first-of-type {
+
+  border-radius: 50%;
+  padding: 15px;
+  background: rgba(237, 248, 252, 0.2);
+}
+
+.conatct .contact-data div span:last-of-type {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 46.8px;
+  letter-spacing: 0;
+
+  color: #FFFFFF;
+}
+
+.conatct .contact-data div span:first-of-type .icon {
+  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: 900;
+}
+
+.form {
+  border-radius: 5px;
+  width: 100%;
+  background-color: rgba(237, 248, 252, 0.2);
+}
+
+.form span {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36.46px;
+  color: #FFFFFF;
+}
+
+.form .linkat {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.form .linkat span {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #FFFFFF;
+  position: relative;
+  cursor: pointer;
+}
+
+.form .linkat span::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  color: #FFFFFF;
+  background-color: #88FFEE;
+  bottom: 0;
+  left: 50%;
+  z-index: 999;
+  transition: .4s;
+}
+
+.form .linkat .active::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  color: #FFFFFF;
+  background-color: #88FFEE;
+  bottom: 0;
+  left: 0;
+  z-index: 999;
+  transition: .4s;
+}
+@media(max-width:768px) {
+  .conatct .contact-data div span:last-of-type {
+    font-size: 22px;
+  }
+
+  .form .linkat span {
+    font-size: 15px;
+  }
+
+  .conatct .contact-data img {
+    width: 120px;
+  }
+}
+
+.form .linkat span.active {
+  color: #88FFEE;
+}
+
+.form .active,
+.form .linkat span:hover {
+  color: #88FFEE;
+}
+
+.form .linkat span:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+.form form input {
+  height: 70.57px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.form form textarea {
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.form .pad {
+  padding: 30px 50px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #8C8C8C;
+  font-size: 22px;
+  line-height: 21px;
+  font-weight: 400;
+  font-family: "IBM Plex Sans", sans-serif;
+
+}
+
+.send {
+  width: fit-content;
+  border: none;
+  outline: none;
+  font-size: 25px;
+  line-height: 35px;
+  font-weight: 400;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: #340748;
+  color: #FFFFFF;
+  padding: 15px 80px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.send:hover {
+  background-color: #8F779A;
+}
+
+[lang="en"] {
+  form p {
+    text-align: left !important;
+  }
+  @media(max-width:768px) {
+    .conatct .contact-data div span:last-of-type {
+      font-size: 22px;
+    }
+
+    .form .pad span {
+      font-size: 18px;
+    }
+
+    .form .linkat span {
+      font-size: 13px;
+    }
+
+    .conatct .contact-data img {
+      width: 120px;
+    }
+
+  }
+}

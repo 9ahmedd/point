@@ -1,0 +1,101 @@
+{
+    "nav":{
+        "home":"الرئيسية",
+        "serv_link":"خدمات بوينت",
+         "who": "من بوينت",
+    "phil": "فلسفة بوينت",
+    "success": "ضع نقطة لنجاحك",
+    "clients": "شركاؤنا",
+    "creations": "ابداعات بوينت",
+    "employment": "التوظيف",
+    "english": "English"
+    },
+     "props":{
+        "philosophy":"فلسفة",
+        "services":"خدمات",
+        "who":"نحن",
+        "creations":"ابداعات",
+        "employment":"التوظيف"
+    },
+    "employment": {
+    "title": "ضع نقطة لنجاحك",
+    "subtitle": "، و انضم إلينا",
+    "description": "هنا نستقبل كل عقل مُبدع ومُبتكر ليمثل صورة عائلة بوينت",
+    "formTitle": "دعنا نعرف عنك أكثر",
+    "fullNamePlaceholder": "الاسم كامل",
+    "emailPlaceholder": "البريد الالكتروني",
+    "phonePlaceholder": "رقم الجوال",
+    "portfolioLinkPlaceholder": "ارفق رابط ملف اعمالك",
+    "resumePlaceholder": "ارفق ملف السيرة الذاتية",
+    "successMessage": "تم ارسال رسالتك بنجاح",
+    "submitButton": "ارسال الطلب",
+        "btnResume":"إرفاق الملف"
+
+  },
+  "success": {
+    "title": "ضع نقطة نجاحك",
+    "generalInquiries": "استفسارات عامة",
+    "talents": "مواهب",
+    "works": "أعمال",
+    "fullNamePlaceholder": "الاسم كامل",
+    "emailPlaceholder": "البريد الالكتروني",
+    "phonePlaceholder": "رقم الجوال",
+    "optionalMessagePlaceholder": "الرسالة ( إختياري )",
+    "successMessage": "تم ارسال رسالتك بنجاح",
+    "sendButton": "ارسال"
+  },
+   "who": {
+    "title": "من نحن",
+    "startPoint": "بداية كل نجاح نقطة."
+  },
+  "why": {
+    "title": "لماذا نحن",
+    "messageTitle": "رسالتنا",
+   "at":"في بوينت",
+    "goalTitle": "هدفنا "
+  },
+   "phil": {
+    "title1": "فلسفة ",
+    "title2": "بوينت ",
+    "description1": "نعتبر كل نقطة بداية فرصة للتأثير والتغيير، وكل نقطة نهاية فرصة للاحتفال بالإنجازات والنجاحات،",
+    "description2": "ندفع حدود الإبداع من خلال روح العمل الجماعي الذي يحمل في طياته حلولًا مبتكرة تفوق توقعات عملائنا"
+  },
+  "creations":{
+    "title1":"ابداعات",
+    "title2":"بوينت",
+    "description":"استعد لنأخذك في رحلة من الإثارة الإبداعية"
+
+  },
+   "landing": {
+    "title": "بداية كل نجاح نقطة",
+    "description": "نقطة تغير في ظهورك و تواجدك الاعلامي"
+  },
+  "works": {
+    "title": "أعمالنا",
+    "description": "بعض نجاحتنا المقدمة",
+    "conferences":"مؤتمرات",
+    "social":"وسائل التواصل الاجتماعي",
+    "site":"مواقع الكترونية",
+    "mark":"العلامة التجارية",
+    "Designs":"تصميمات"
+  },
+   "services": {
+    "title": "خدماتنا",
+    "title2": "خدماتنا في",
+    "in":"بوينت",
+    "description": "النقطة الأولى تترك إنطباع يدوم  إلى الأبد"
+  },
+   "clients": {
+    "title": "عملائنا",
+    "description": "مجموعة من عملائنا و شركاء النجاح"
+  },
+    "validation":{
+    "req":"هذا الحقل مطلوب"
+  },
+  "done": {
+    "text1": "تم ارسال رسالتك بنجاح",
+    "text2": "تم ارسال طلبك بنجاح",
+    "close":"انهاء"
+  }
+
+}

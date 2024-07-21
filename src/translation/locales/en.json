@@ -1,0 +1,101 @@
+{
+    "nav":{
+        "home":"Home",
+        "serv_link":" Services",
+        "who": "Who is Point",
+    "phil": " Philosophy",
+    "success": "Put a Point for Success",
+    "clients": "Our Partners",
+    "creations": " Creations",
+    "employment": "Employment",
+    "english": "Arabic"
+    },
+    "props":{
+        "philosophy":"philosophy",
+        "services":"Services",
+        "who":"Who",
+        "creations":"Creations",
+        "employment":"Employment"
+    },
+     "employment": {
+    "title": "Set a point for your success,",
+    "subtitle": "and join us",
+    "description": "Here we welcome every creative and innovative mind to represent the image of the Point family",
+    "formTitle": "Let us know more about you",
+    "fullNamePlaceholder": "Full Name",
+    "emailPlaceholder": "Email",
+    "phonePlaceholder": "Phone Number",
+    "portfolioLinkPlaceholder": "Attach your portfolio link",
+    "resumePlaceholder": "Attach your CV",
+    "successMessage": "Your message has been successfully sent",
+    "submitButton": "Send Application",
+    "btnResume":"Attach file"
+  },
+   "success": {
+    "title": "Set a point for your success",
+    "generalInquiries": "General Inquiries",
+    "talents": "Talents",
+    "works": "Works",
+    "fullNamePlaceholder": "Full Name",
+    "emailPlaceholder": "Email",
+    "phonePlaceholder": "Phone Number",
+    "optionalMessagePlaceholder": "Message (optional)",
+    "successMessage": "Your message has been successfully sent",
+    "sendButton": "Send"
+  },
+   "who": {
+    "title": "Who We Are",
+    "startPoint": "The beginning of every success is a point."
+    
+  },
+  "why": {
+    "title": "Why Us",
+    "messageTitle": "Our Message",
+    "at": "at point",
+    "goalTitle": "Our Goal"
+   
+  }, 
+   "phil": {
+     "title1": "Point ",
+    "title2": "Philosophy ",
+    "description1": "We consider every starting point as an opportunity to impact and change, and every endpoint as an opportunity to celebrate achievements and successes.",
+    "description2": "We push the boundaries of creativity through a team spirit that carries innovative solutions exceeding our clients' expectations."
+  }, 
+ "creations": {
+    "title1": "Creations",
+    "title2": "Point",
+    "description": "Get ready to take a journey of creative excitement"
+  },
+   "landing": {
+    "title": "Every success starts with a point",
+    "description": "A point of change in your media presence and appearance"
+  },
+  "works": {
+    "title": "Our Works",
+    "description": "Some of our presented successes",
+    "conferences":"Conferences",
+    "social":"Social Media",
+    "site":"Websites",
+    "mark":"Trade Mark",
+    "Designs":"Designs"
+  }, 
+  "services": {
+    "title": "Our Services",
+    "title2": "Our Services in ",
+    "in":" Point",
+    "description": "The first point leaves an impression that lasts forever"
+   
+  },
+  "clients": {
+    "title": "Our Clients",
+    "description": "A group of our clients and success partners"
+  },
+  "validation":{
+    "req":"This field is required"
+  },
+   "done": {
+    "text1": "Your message has been successfully sent",
+    "text2": "Your request has been sent successfully.",
+    "close":"Close"
+  }
+}

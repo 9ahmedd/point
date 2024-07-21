@@ -1,0 +1,101 @@
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1400px;
+  }
+}
+
+.header-serv {
+  position: relative;
+  /* left: 0; */
+  width: 100%;
+  z-index: 2;
+  background-color: #F5F4F4;
+  box-shadow: 0 2px 16.9px 0 rgba(52, 7, 72, 0.3);
+}
+
+.header-serv .nav {
+  height: 97px;
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-serv .container .nav .links {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-serv .container .nav .links Link {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  text-align: right;
+  letter-spacing: 0;
+  color: #434343;
+  position: relative;
+}
+
+.header-serv .container .nav .links a::before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 1px;
+  color: #561877;
+  background-color: #561877;
+  bottom: 0;
+  left: 50%;
+  z-index: 999;
+  transition: .4s;
+}
+
+.header-serv .container .nav .links a:hover {
+  color: #561877;
+}
+
+.header-serv .container .nav .links a:active {
+  color: #561877 !important;
+}
+
+.header-serv .container .nav .links a:hover:before {
+  width: 100%;
+  left: 0;
+}
+
+.header-serv .nav img {
+  width: 80.31px;
+  /* height: 49.84px; */
+  max-width: 100%;
+}
+@media(max-width:992px) {
+  .header-serv {
+    display: none;
+  }
+
+  .header3-serv {
+    display: block;
+  }
+}
