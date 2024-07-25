@@ -40,7 +40,7 @@ function NavM(props) {
               <Link to="">
                 <span onClick={props?.bottom}>{t("global.nav.success")}</span>
               </Link>
-              <Link to="/"> {t("global.nav.clients")}</Link>
+              <Link to="/#target-section"> {t("global.nav.clients")}</Link>
               <Link to="/creations"> {t("global.nav.creations")}</Link>
               <Link to="/employment"> {t("global.nav.employment")}</Link>
               <Link to="#">
@@ -51,11 +51,7 @@ function NavM(props) {
               </Link>
             </div>
             <Link to="/">
-              <img
-                src={logoM}
-                alt=""
-                
-              />
+              <img src={logoM} alt="" />
             </Link>
           </div>
         </div>

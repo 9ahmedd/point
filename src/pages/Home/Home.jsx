@@ -205,9 +205,20 @@ const clientsRef = useRef(null);
 const scrollToBottom = () => {
   bottomRef.current.scrollIntoView({ behavior: "smooth" });
   };
-   const scrollToClients = () => {
-     clientsRef.current.scrollIntoView({ behavior: "smooth" });
-   };
+  //  const scrollToClients = () => {
+  //    clientsRef.current.scrollIntoView({ behavior: "smooth" });
+  // };
+   const [isMobile, setIsMobile] = useState(false);
+
+   useEffect(() => {
+     // Function to check if the screen width is 768px or less
+     const handleResize = () => setIsMobile(window.innerWidth <= 768);
+     handleResize(); // Initial check
+     window.addEventListener("resize", handleResize);
+
+     // Cleanup event listener on component unmount
+     return () => window.removeEventListener("resize", handleResize);
+   }, []);
   return (
     <>
       {/* Start Header */}
@@ -293,7 +304,13 @@ const scrollToBottom = () => {
                 <div className="desc">
                   <img src={richy} alt="" />
                   <span>{t("global.works.conferences")}</span>
-                  <img src={play} alt="" />
+                  <a
+                    href="https://drive.google.com/file/d/1-XQ8YLmEziGAvRfIHALcLcPEZLkrdqSi/view"
+                    target="_blank"
+                  >
+                    {" "}
+                    <img src={play} alt="" />
+                  </a>
                 </div>
               </div>
             </Col>
@@ -367,7 +384,7 @@ const scrollToBottom = () => {
             className={`swiper-servs mx-auto `}
             style={{ direction: lang === "ar" ? "rtl" : "ltr" }}
             data-aos="zoom-in"
-            modules={[Navigation]}
+            modules={[Navigation, Autoplay]}
             // direction={swiperDirection}
             spaceBetween={50}
             effect="fade"
@@ -375,8 +392,9 @@ const scrollToBottom = () => {
             //   delay: 2500,
             //   disableOnInteraction: false,
             // }}
-
-            navigation={true}
+            autoplay={{ delay: 1500, disableOnInteraction: false }}
+            speed={1000}
+            navigation={window.innerWidth <= 768 ? false : true}
             pagination={{ clickable: true }}
             breakpoints={{
               // عندما يكون العرض 640 بكسل أو أكثر
@@ -424,7 +442,7 @@ const scrollToBottom = () => {
       </div>
       {/* end servs slider */}
 
-      <div className="clients mb-4" id="sec-clients">
+      <div className="clients mb-4" id="target-section">
         <div className="container ">
           <div data-aos="fade-down" className="main-heading">
             <h2> {t("global.clients.title")}</h2>

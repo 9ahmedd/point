@@ -9,7 +9,7 @@ dataType:null,
   isError: false,
 };
 
-const baseURL = `http://backend.pointksa.net/api/`;
+const baseURL = `https://backend.pointksa.net/api/`;
 
 export const whoApi = createAsyncThunk("get/who", async (lang) => {
   try {

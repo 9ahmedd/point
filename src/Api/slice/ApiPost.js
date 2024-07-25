@@ -8,7 +8,7 @@ const initialState = {
   isError: false,
 };
 
-const baseURL = `http://backend.pointksa.net/api/`;
+const baseURL = `https://backend.pointksa.net/api/`;
 
 export const contactApi = createAsyncThunk("post/contact", async (dataContact) => {
   try {

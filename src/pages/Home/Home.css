@@ -562,7 +562,45 @@
 .swiper-servs:hover {
   overflow: visible !important;
 }
+@media (max-width: 768px) {
+  .slider .card {
+    height: auto !important;
+    border-color: #DFDFDF !important;
+    transition: .4s;
+    width: 100% !important;
+  }
 
+  .slider .swiper-servs {
+    padding: 0 15px;
+    /* Reduce padding to fit smaller screens */
+  }
+
+  .slider .swiper-servs .card .serv-icon img {
+    width: 50px;
+    /* Smaller icon size */
+    padding: 10px;
+  }
+
+  .slider .swiper-servs .card .card-title {
+    font-size: 20px;
+    /* Smaller title font size */
+  }
+
+  .slider .swiper-servs .card .card-text {
+    font-size: 16px;
+    /* Smaller text font size */
+  }
+}
+@media (max-width: 992px) {
+  .slider .card:hover {
+    transform: none !important;
+    box-shadow: none !important;
+  }
+
+  .swiper-servs:hover {
+    overflow: hidden !important;
+  }
+}
 /* .fullscreen-overlay {
   display: none;
   position: fixed;
@@ -685,7 +723,7 @@
 }
 @media(max-width:768px) {
   .slider .container {
-    display: none;
+    /* display: none; */
   }
 }
 

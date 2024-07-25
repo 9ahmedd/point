@@ -94,7 +94,7 @@ function Nav({name,Class,id,bottom}) {
           <Link to="">
             <span onClick={bottom}>{t("global.nav.success")}</span>
           </Link>
-          <Link to="/"> {t("global.nav.clients")}</Link>
+          <Link to="/#target-section"> {t("global.nav.clients")}</Link>
           <Link to="/creations" onClick={() => window.scrollTo(0, 0)}>
             {" "}
             {t("global.nav.creations")}
