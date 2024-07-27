@@ -233,7 +233,7 @@ function Servs() {
                   style={{
                     width: "50%",
                     display: e.isShowen ? "block" : "none",
-                    transition: "0.5s",
+                    transition: "0.5s ",
                   }}
                 >
                   <div className="descc">

@@ -102,7 +102,7 @@
 }
 
 .creations-text div span {
-  font-family: " IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 60px;
   font-weight: bold;
   line-height: 29.2px;
@@ -113,7 +113,7 @@
 }
 
 .creations-text p {
-  font-family: " IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 51px;
@@ -209,7 +209,7 @@
 }
 
 .text-one span:first-child {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: bold;
   line-height: 29.2px;
@@ -221,7 +221,7 @@
 }
 
 .text-one span:last-child {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22px;
   font-weight: normal;
   line-height: 35px;
@@ -241,7 +241,7 @@
 }
 
 .text-two span:first-child {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: bold;
   line-height: 29.2px;
@@ -253,7 +253,7 @@
 }
 
 .text-two span:last-child {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22px;
   font-weight: normal;
   line-height: 35px;

@@ -2,7 +2,7 @@
   position: fixed;
   /* left: 0; */
   width: fit-content;
-  z-index: 2;
+  z-index: 9999;
   background-color: #8F779A;
   margin: 0 50px;
   transition: .4s;
@@ -35,7 +35,7 @@
 }
 
 .header2 .side span {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 150%;
@@ -149,7 +149,7 @@
 }
 
 .header3 .side span {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 150%;
@@ -173,7 +173,7 @@
 }
 
 .header .container .nav .links a {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 150%;
@@ -213,5 +213,10 @@
 
   .header3 {
     display: block;
+  }
+}
+@media(max-width:768px) {
+  .custome-offcanves.offcanvas.offcanvas-end.show {
+    width: 250px !important;
   }
 }

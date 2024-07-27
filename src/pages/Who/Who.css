@@ -59,7 +59,7 @@
 }
 
 .header-who .container .nav .links a {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 150%;
@@ -72,7 +72,7 @@
 }
 
 .header-who.w-header .container .nav .links a {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 150%;
@@ -152,7 +152,7 @@
 }
 
 .who-landing .what-point span:first-child {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 60px;
   font-weight: bold;
   line-height: 50px;
@@ -162,7 +162,7 @@
 }
 
 .who-landing .what-point span:last-of-type {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 50px;
@@ -172,7 +172,7 @@
 }
 
 .who-landing .what-point p {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22px;
   font-weight: normal;
   line-height: 50px;
@@ -204,7 +204,7 @@
 }
 
 .who-land .what-point span:first-child {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 60px;
   font-weight: bold;
   line-height: 50px;
@@ -216,7 +216,7 @@
 }
 
 .who-land .what-point span:last-of-type {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 50px;
@@ -226,7 +226,7 @@
 }
 
 .who-land .what-point p {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22px;
   font-weight: normal;
   line-height: 50px;
@@ -325,7 +325,7 @@
 }
 
 .why-point .why-desc span.whyy {
-  font-family: " IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 50px;
   font-weight: bold;
   line-height: 29.2px;
@@ -378,7 +378,7 @@
 
 .why-point .why-desc .goal div span,
 .why-point .why-desc .message div span {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22px;
   font-weight: bold;
   line-height: 29.2px;
@@ -392,7 +392,7 @@
 
 .why-point .why-desc .goal span.whyyy,
 .why-point .why-desc .message span.whyyy {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22px;
   font-weight: normal;
   line-height: 42px;

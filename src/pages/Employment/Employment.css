@@ -63,7 +63,7 @@
 }
 
 .header3-employ .side span {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 18px;
   font-weight: 500;
   line-height: 150%;
@@ -87,7 +87,7 @@
 }
 
 .employment .em-title span {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 50px;
   font-weight: bold;
   line-height: 29.2px;
@@ -103,7 +103,7 @@
 }
 
 .employment .land p {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: normal;
   line-height: 60px;
@@ -146,7 +146,7 @@
 }
 
 .employ-form .t-form {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 35px;
   font-weight: bold;
   line-height: 29.2px;
@@ -174,7 +174,7 @@
 }
 
 .employ-form input::placeholder {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 20.64px;
   font-weight: normal;
   line-height: 31.35px;
@@ -198,7 +198,7 @@
   background: #340748;
   box-sizing: border-box;
   border: 2px solid #340748;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 26px;
   font-weight: 500;
   line-height: 150%;
@@ -216,7 +216,7 @@
 }
 
 .resume-name {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 18px;
   font-weight: 500;
 
@@ -224,7 +224,7 @@
 }
 
 .resume-btn {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22.08px;
   font-weight: 500;
   padding: 15px 60px;

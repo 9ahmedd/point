@@ -197,7 +197,7 @@ function Footer() {
                         <p
                           style={{
                             width: "100%",
-                            fontFamily: "IBM Plex Sans, sans-serif",
+                            fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                             textAlign: "right",
                             color: "red",
@@ -221,7 +221,7 @@ function Footer() {
                         <p
                           style={{
                             width: "100%",
-                            fontFamily: "IBM Plex Sans, sans-serif",
+                            fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                             textAlign: "right",
                             color: "red",
@@ -245,7 +245,7 @@ function Footer() {
                         <p
                           style={{
                             width: "100%",
-                            fontFamily: "IBM Plex Sans, sans-serif",
+                            fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                             textAlign: "right",
                             color: "red",
@@ -271,7 +271,7 @@ function Footer() {
                         <p
                           style={{
                             width: "100%",
-                            fontFamily: "IBM Plex Sans, sans-serif",
+                            fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                             textAlign: "right",
                             color: "red",

@@ -47,7 +47,7 @@
 }
 
 .phil-text .phil-title span {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 50px;
   font-weight: bold;
   letter-spacing: 0;
@@ -62,7 +62,7 @@
 }
 
 .phil-text p {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22px;
   font-weight: normal;
   line-height: 40px;
@@ -162,7 +162,7 @@
 }
 
 .content-phil span:first-of-type {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: bold;
   line-height: 29.2px;
@@ -174,7 +174,7 @@
 }
 
 .content-phil span:last-of-type {
-  font-family: "IBM Plex Sans",sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 18px;
   font-weight: normal;
   line-height: 32px;

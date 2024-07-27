@@ -13,18 +13,19 @@ import employ from "../../assets/img/employ.gif"
 import Footer from '../../components/Footer/Footer';
 import { IoIosCloudDone } from "react-icons/io";
 import { useTranslation } from 'react-i18next';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { joinApi } from '../../Api/slice/ApiPost';
 import { MdError } from "react-icons/md";
 import Top from '../../components/Top/Top';
 import Done from '../../components/Done/Done';
-
+import load from "../../assets/img/Rolling@1x-1.0s-200px-200px.gif"
 function Employment() {
       const [active, setActive] = useState(false);
       const { pathname } = useLocation();
     const [show, setShow] = useState(false);
 
         const { t } = useTranslation();
+  const loading = useSelector((state) => state.posts.isLoading);
 
       useEffect(() => {
         AOS.init({
@@ -235,7 +236,7 @@ console.log(formData)
                           <p
                             style={{
                               width: "100%",
-                              fontFamily: "IBM Plex Sans, sans-serif",
+                              fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                               textAlign: "right",
                               color: "red",
@@ -262,7 +263,7 @@ console.log(formData)
                           <p
                             style={{
                               width: "100%",
-                              fontFamily: "IBM Plex Sans, sans-serif",
+                              fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                               textAlign: "right",
                               color: "red",
@@ -289,7 +290,7 @@ console.log(formData)
                           <p
                             style={{
                               width: "100%",
-                              fontFamily: "IBM Plex Sans, sans-serif",
+                              fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                               textAlign: "right",
                               color: "red",
@@ -323,7 +324,7 @@ console.log(formData)
                           <p
                             style={{
                               width: "100%",
-                              fontFamily: "IBM Plex Sans, sans-serif",
+                              fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                               textAlign: "right",
                               color: "red",
@@ -371,7 +372,7 @@ console.log(formData)
                         <>
                           <p
                             style={{
-                              fontFamily: "IBM Plex Sans, sans-serif",
+                              fontFamily: "IBM Plex Sans Arabic, sans-serif",
 
                               textAlign: "right",
                               color: "red",
@@ -397,8 +398,13 @@ console.log(formData)
                     </span>
                   )}
                   <div className="em-btn col-12">
-                    <button className="em-send" onClick={handleJoin}>
-                      {t("global.employment.submitButton")}
+                    <button
+                      className="em-send"
+                      onClick={handleJoin}
+                      disabled={loading == true ? true : false}
+                    >
+                      {loading == true ? <img src={load} alt="" style={{width:"50px",maxWidth:"100%"}}/> :t("global.employment.submitButton")}
+                    
                     </button>
                   </div>
                 </form>

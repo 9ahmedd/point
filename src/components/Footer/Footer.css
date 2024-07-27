@@ -57,7 +57,7 @@
 }
 
 .conatct .contact-data div span:last-of-type {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: bold;
   line-height: 46.8px;
@@ -79,7 +79,7 @@
 }
 
 .form span {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 36.46px;
@@ -94,7 +94,7 @@
 }
 
 .form .linkat span {
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   font-size: 22px;
   font-weight: 400;
   line-height: 26px;
@@ -189,7 +189,7 @@ textarea::placeholder {
   font-size: 22px;
   line-height: 21px;
   font-weight: 400;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
 
 }
 
@@ -200,7 +200,7 @@ textarea::placeholder {
   font-size: 25px;
   line-height: 35px;
   font-weight: 400;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "IBM Plex Sans Arabic", sans-serif;
   background-color: #340748;
   color: #FFFFFF;
   padding: 15px 80px;
